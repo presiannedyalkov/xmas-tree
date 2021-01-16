@@ -1,1 +1,0 @@
-watch -n 5 rsync --progress --protect-args --size-only --delete -avhzhuW -e ssh "/mnt/c/Users/Pres/Documents/Home/Projects/tree/Programmable-Xmas-Tree/" "pres@raspberrypi:/home/pres/Programmable-Xmas-Tree"
