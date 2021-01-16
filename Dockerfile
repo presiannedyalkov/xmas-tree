@@ -2,7 +2,6 @@
 FROM python:3
 WORKDIR /app
 COPY requirements.txt .
-RUN sudo apt-get install python-setuptools
-RUN sudo easy_install -U RPIO
+RUN pip3 install -r requirements.txt
 COPY python .
 CMD python3 random_leds.py
