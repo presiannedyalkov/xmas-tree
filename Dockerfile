@@ -2,4 +2,4 @@
 FROM python:3
 WORKDIR /app
 COPY python .
-CMD python ./python/random_leds.py
+CMD python3 random_leds.py
